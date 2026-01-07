@@ -1,8 +1,8 @@
 # docker_esphome
 
-When running Home Assistant from docker (no HAOS), you will not be able to flash the 'smart home' firmware.
+When running Home Assistant from docker (no HAOS), you will not be able to initially flash the 'smart home' firmware to ESP devices.
 
-This (ESPHOME) framework will let you manage, flash the correct firmware to ESP devices.
+This (ESPHOME) framework will let you flash the firmware to ESP devices.
 Further management (upgrade/configure) can be done from Home Assistant.
 
 Usage:
