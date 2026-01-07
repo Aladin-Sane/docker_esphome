@@ -1,8 +1,11 @@
 # docker_esphome
 
-When running Home Assistant from docker (no HAOS), you will not be able to flash these.
-You'll need this Framework let's you flash regular ESP devices to smart home devices.
+When running Home Assistant from docker (no HAOS), you will not be able to flash the 'smart home' firmware.
 
+This (ESPHOME) framework will let you manage, flash the correct firmware to ESP devices.
+Further management (upgrade/configure) can be done from Home Assistant.
+
+Usage:
 - Plugin your ESP device to the serial port
 - Find the port 'assigned' (/dev/tty*)
 - Verify if the docker-user has access to the serial device
